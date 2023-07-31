@@ -1,0 +1,11 @@
+# https://kubernetes.io/docs/concepts/configuration/secret/
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mongosecrets
+  namespace: default
+type: Opaque
+data:
+  mongo-root-username: c2ltcGxldXNlcg==
+  mongo-root-password: c2ltcGxlcGFzc3dvcmQ=
+
